@@ -7,7 +7,7 @@ const server = http.createServer(app);  //The server object is an HTTP server cr
 
 const io = new Server(server,{         //The io object is an instance of the Socket.IO server, which works on top of the HTTP server (server) to handle WebSocket connections
     cors:{
-        origin:['http://localhost:5173']
+        origin:['http://localhost:5174']
     }
 });
 
